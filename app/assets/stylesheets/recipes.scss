@@ -1,3 +1,40 @@
 // Place all the styles related to the recipes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: cornflowerblue;
+  font-family: "Anonymous Pro", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border-color: #B00100;
+  width: 100%;
+}
+
+.container{
+  width: 980px;
+}
+
+
+
+td {
+  padding: 12px;
+}
+
+.even {
+  background-color: bisque;
+}
+
+.odd {
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+}
+th {
+  background-color: cadetblue;
+ font-size: x-large;
+}
